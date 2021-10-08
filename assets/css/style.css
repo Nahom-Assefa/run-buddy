@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 
@@ -16,13 +17,13 @@ header {
     background-color: #39a6b2;
 }
 
-header h1 {
+header h1 { 
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
   }
-  
+
   header a {
     text-decoration: none;
     color: #fce138;
@@ -53,4 +54,92 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
+  }
+
+  div a {
+      width: 9000px;
+  }
+
+  footer {
+      background: #fce138;
+      width: 100%;
+      padding: 40px 35px;
+  }
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+      float: right;
+      line-height: 1.5;
+      text-align: right;
+  }
+
+  footer a {
+      color: #024e76;
+  }
+
+  section {
+    padding: 60px;
+  }
+
+  .hero {
+    background-image: url("../images/hero-bg.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+  }
+
+  .form-hero {
+      background-color: #fce138;
+      width: 500px;
+      padding: 20px;
+      color: #024e76;
+      border: solid 3px #024e76;
+      position: absolute;
+      right: 140px;
+      bottom: 120px;
+      box-sizing: border-box;
+      /*float: right;*/
+  }
+
+  .words {
+      margin: 5px 0 15px 0;
+      font-size:small;
+  }
+
+  .form-hero p {
+    margin: 5px 0 15px 0;
+  }*/
+
+  .form-hero h3 {
+      font-size:larger;
+      margin: 0;
+  }
+
+  .form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .form-hero label {
+    margin: 0 5px;
+  }
+
+  .form-hero button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 7px;
+    width: 27%;
+    font-size: 16px;
   }
