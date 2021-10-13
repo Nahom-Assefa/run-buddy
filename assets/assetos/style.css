@@ -235,8 +235,9 @@ header h1 {
   }
 
   .trainer-bio h3 {
-    font-size: 32px;
+    font-size: 500px;
     margin-bottom: 8px;
+    text-align: left;
   }
 
   .trainer-bio h4 {
