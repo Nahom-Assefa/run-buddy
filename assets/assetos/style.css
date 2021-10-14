@@ -13,13 +13,12 @@ body {
 
 /* apply styles to <header> */
 header {
-    padding: 20px 35px;
+    padding: 20px;
     background-color: #39a6b2;
 }
 
 header h1 { 
-    font-weight: bold;
-    font-size: 36px;
+    font-size: 25px;
     color: #fce138;
     margin: 0;
   }
@@ -85,14 +84,16 @@ header h1 {
 
   section {
     padding: 60px;
+  
   }
 
   .hero {
-    background-image: url("../images/hero-bg.jpeg"); 
+    background-image: url("../images/flipped-hero-image.jpeg"); 
     background-size: cover;
     background-position: center;
     height: 600px;
     position: relative;
+    padding: 0px 0px 60px 0px;
   }
 
   .form-hero {
@@ -105,6 +106,7 @@ header h1 {
       right: 140px;
       bottom: 120px;
       box-sizing: border-box;
+      opacity: 50%;
       /*float: right;*/
   }
 
@@ -235,9 +237,8 @@ header h1 {
   }
 
   .trainer-bio h3 {
-    font-size: 500px;
+    font-size: 32px;
     margin-bottom: 8px;
-    text-align: left;
   }
 
   .trainer-bio h4 {
