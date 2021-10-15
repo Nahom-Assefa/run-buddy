@@ -68,19 +68,20 @@ header h1 {
 
   footer {
       background: #fce138;
+      display: flex;
+      justify-content: space-between;
+      flex: wrap;
       width: 100%;
       padding: 40px 35px;
   }
 
   footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
   }
 
   footer div {
-      float: right;
       line-height: 1.5;
       text-align: right;
   }
@@ -94,27 +95,41 @@ header h1 {
   
   }
 
+  .hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+
+  }
+
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+  }
+
   .hero {
     background-image: url("../images/flipped-hero-image.jpeg"); 
     background-size: cover;
     background-position: center;
-    height: 600px;
-    position: relative;
     padding: 0px 0px 60px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .form-hero {
       background-color: #fce138;
-      width: 500px;
       padding: 20px;
       color: #024e76;
       border: solid 3px #024e76;
-      position: absolute;
-      right: 140px;
-      bottom: 120px;
       box-sizing: border-box;
       opacity: 50%;
-      /*float: right;*/
+      width: 40%;
+      margin: 3.5%;
   }
 
   .words {
